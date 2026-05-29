@@ -22,7 +22,7 @@ export function RectangleReport({ result }) {
   const area = result?.data?.area ?? "-";
 
   return (
-    <div className="rounded-xl border border-slate-200 bg-white p-5">
+    <div className="rounded-xl border border-slate-200 bg-white p-5 min-h-[330px]">
       <span className="mb-4 inline-block rounded bg-green-950 w-full py-1.5 text-[14px] font-medium uppercase tracking-widest text-green-300">
         Result
       </span>
